@@ -1,0 +1,31 @@
+.to-do-form {
+  background-color: rgb(250, 208, 225);
+  border: 0;
+  width: 900px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 90px;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  border: #fff;
+}
+
+.to-do-form input::placeholder {
+  color: rgb(15, 15, 15);
+}
+.to-do-form input:focus,
+button:focus {
+  outline: none;
+}
+button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border-radius: 90px;
+  background-color: rgb(209, 45, 154);
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(250, 123, 193);
+}

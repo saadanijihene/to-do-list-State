@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #f5eff4;
+  border-radius: 5px;
+}
+
+.list input {
+  background-color: transparent;
+  border: 0;
+  color: rgb(36, 33, 33);
+  font-size: 18px;
+}
+.list input:focus {
+  outline: none;
+}
+
+.faicons {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}

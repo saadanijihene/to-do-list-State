@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://pub-static.fotor.com/assets/projects/pages/a6bf9710-13d0-11e9-b390-57312b61ab95_3629c1d0-336d-426b-bbe3-142085fab625_thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-size: 150mm;
+  background: cover;
+  background-color: rgb(255, 240, 248);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
